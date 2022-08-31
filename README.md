@@ -13,8 +13,11 @@ demographics features, organize the population into clusters, and see how preval
 ## Step 1: Preprocessing
 
 ### Step 1.1: Assess Missing Data
+6.46% of the data are naturally missing. However, some of the data points represent the missing data.
 
 #### Step 1.1.1: Convert Missing Value Codes to NaNs
+
+Based on the details in the AZDIAS_Feature_Summary.csv file, the 'missing_or_unknown' column, these values are converted to NaNs. Overall 11.05% of datapounts are missing.
 
 #### Step 1.1.2: Assess Missing Data in Each Column
 
@@ -50,6 +53,6 @@ demographics features, organize the population into clusters, and see how preval
 
 
 
-Today's commit date is 16.08.2022
+Today's commit date is 31.08.2022
 
 Iman Babaei
